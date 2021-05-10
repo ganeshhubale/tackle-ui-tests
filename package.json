@@ -12,7 +12,6 @@
         "prettier": "^2.2.1"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "check": "prettier --check './**/*.{ts,js,json}'",
         "format": "prettier --write './**/*.{ts,js,json}'"
     }
