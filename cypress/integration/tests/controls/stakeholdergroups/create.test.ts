@@ -59,7 +59,7 @@ describe("Stakeholder groups validations", () => {
     });
 
     it("Stakholder group button validations", function () {
-        // Navigate to stakeholder group tab and click "Create New" button
+        // Navigate to stakeholder group tab and click "Create New" buttons
         clickByText(navMenu, controls);
         clickByText(navTab, stakeholdergroups);
         clickByText(button, createNewButton);
